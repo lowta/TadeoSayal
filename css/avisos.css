@@ -1,0 +1,163 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.title {
+    color: black;
+    font-weight: 650;
+    font-size: 20px;
+    margin-right: 190px;
+}
+
+#exepcion{
+    margin-right: 0px;
+}
+
+.footer {
+    display: grid; /* Usar grid layout */
+    grid-template-columns: repeat(4, 1fr); /* Crear 4 columnas iguales */
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    background-color: white;
+    padding: 10px 0;
+    position: fixed; /* Coloca el footer en una posición fija */
+    bottom: 0; /* Lo coloca en la parte inferior de la ventana */
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+.footer a {
+    color: #afafaf;
+    text-decoration: none;
+    display: flex; /* Hacer que el enlace sea un contenedor flexible */
+    flex-direction: column; /* Apilar el contenido verticalmente */
+    align-items: center; /* Centrar los elementos horizontalmente */
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+.footer a.selected,
+.footer a:hover 
+.footer img.selected{
+    color: #df4e54;
+}
+
+a#calendario:hover img,
+a#calendario:focus img,
+a#calendario:active img {
+  background-color: #df4e54;
+}
+
+a#carnet:hover img,
+a#carnet:focus img,
+a#carnet:active img {
+  background-color: #df4e54;
+}
+
+a#servicios:hover img,
+a#servicios:focus img,
+a#servicios:active img {
+  background-color: #df4e54;
+}
+
+.footer {
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en líneas nuevas si es necesario */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+#calendario img{
+    width: 40px;
+    background-color: #afafaf;
+}
+
+#carnet img{
+    margin-bottom: 5.7px;
+    width: 34px;
+    background-color: #afafaf;
+}
+
+#servicios img{
+    margin-bottom: 1.5px;
+    width: 30px;
+    background-color: #afafaf;
+}
+
+#avisos svg{
+    margin-top: 4.5px;
+    margin-bottom: 5px;
+    width: 23px; /* Ancho del icono de avisos */
+    height: 23px; /* Alto del icono de avisos */
+}  
+
+.imgservicios{
+    width: 37%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 96px;
+}
+
+.filtro{
+    display: flex;
+    justify-content: end;
+}
+
+.headavisos{
+    display: flex;
+}
+
+.nota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.imagen {
+    width: 90px;
+}
+
+.imagen img {
+    width: 95px;
+}
+
+.contenido {
+    flex: 1;
+}
+
+.titulo{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.subtitulo{
+    text-align: left;
+    font-size: 13px;
+    font-weight: 190;
+    margin-bottom: 5px;
+}
+
+.subtitulo2{
+    font-size: 10px;
+    text-align: left;
+    font-weight: 190;
+}
+
+.flecha{
+    width: 35px;
+}
+
+.divflecha{
+    background-color: transparent;
+}

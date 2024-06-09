@@ -16,7 +16,7 @@
 
 .h1off{
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 650;
     color: black;
     margin-top: 35px;
     margin-left: 15px;
@@ -148,7 +148,7 @@ ul.offooter-container {
     left: -250px;
     width: 250px;
     height: 100%;
-    background-color: black;
+    background-color: white;
     color: #afafaf;
     overflow-y: auto;
     transition: left 0.3s ease;
